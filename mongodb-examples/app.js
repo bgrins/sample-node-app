@@ -2,11 +2,11 @@
  * Module dependencies.
  */
 
-var express = require('express');
+var express = require('express')
   , form = require('connect-form')
   , mongoose = require('mongoose')
   , Schema = mongoose.Schema
-  , GridStore = require('mongodb').GridStore;
+  , GridStore = require('mongodb').GridStore
   , fs = require('fs')
   , spawn = require('child_process').spawn;
 
